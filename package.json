@@ -1,0 +1,38 @@
+{
+  "name": "ngraph.louvain.native",
+  "version": "1.0.0",
+  "description": "[NODE ONLY] Given a graph instance detects communities using the Louvain Method",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js",
+    "demo": "node demo/index.js"
+  },
+  "keywords": [
+    "modularity",
+    "graph",
+    "community",
+    "structure",
+    "louvain",
+    "blondel"
+  ],
+  "author": "Andrei Kashcha",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anvaka/ngraph.louvain.native"
+  },
+  "dependencies": {
+    "ngraph.random": "0.0.1",
+    "bindings": "^1.5.0",
+    "nan": "^2.13.2"
+  },
+  "devDependencies": {
+    "miserables": "^1.0.0",
+    "ngraph.coarsen": "^1.2.0",
+    "ngraph.graph": "0.0.14",
+    "ngraph.louvain": "^2.0.0",
+    "ngraph.svg": "0.0.15",
+    "ngyp": "^1.0.1",
+    "tap": "^12.6.1"
+  }
+}
