@@ -13,6 +13,8 @@
         "./native/v8/index.cc",
       ],
       'cflags' : [ '-std=c++11' ],
+      'cflags!': [ '-fno-exceptions' ],
+      'cflags_cc!': [ '-fno-exceptions' ],
       'conditions': [
         [ 'OS=="mac"', {
           'xcode_settings': {
